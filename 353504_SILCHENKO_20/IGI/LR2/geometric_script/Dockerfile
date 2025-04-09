@@ -8,7 +8,7 @@ COPY main.py /app
 
 WORKDIR /app
 
-ENV SHAPE circle
-ENV SIZE 10
+ENV SHAPE=circle
+ENV SIZE=20
 
 CMD [ "python", "main.py" ]
